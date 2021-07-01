@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.google.Part1Test
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.092 s <<< FAILURE! - in com.google.Part1Test
+com.google.Part1Test.testPlayVideoStopPrevious  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a string containing "Playing video: Funny Dogs"
+     but: was "Playing video: Amazing Cats"
+	at com.google.Part1Test.testPlayVideoStopPrevious(Part1Test.java:67)
+
+com.google.Part1Test.testPlayVideoNonExistent  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.google.Part1Test.testPlayVideoNonExistent(Part1Test.java:53)
+
